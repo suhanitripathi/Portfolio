@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    /*background-color: cornflowerblue;*/
+    background-color: rgba(237, 230, 220, 0.703);
+    /*width: 10vw;*/
+    height: 200vh;
+    font-family: "Sedan", serif;
+    transition: transform 0.3s ease-in;
+    position: absolute;
+}
+.sidebar nav{
+    padding: 10px;
+
+}
+.sidebar nav li{
+    list-style-type:  none;
+    font-size: 20px;
+    padding-top: 75px;
+}
+.main{
+   /* background-color: burlywood;*/
+    width: 100vw;
+    height:100vh;
+}
+.container{
+    display: flex;
+}
+.infocontainer{
+    /*background-color:rgb(220, 130, 211);*/
+    height: 58vh;
+    width: 80vw;
+    margin: 130px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.infocontainer img{
+    height: 58vh;
+    width: 22vw;
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Open Sans", sans-serif;
+}
+.hello{
+font-size: 30px;
+}
+.name{
+font-size: 40px;
+font-weight:bold;
+}
+.about{
+font-size: 25px;
+}
+.moreabout{
+    margin: 12px 0 0 1px;
+    font-size: 15px;
+    font-family: "Sedan", serif; 
+    font-weight: italic;
+}
+.buttons{
+    margin-top: 34px;
+}
+.buttons button{
+    margin:0 3px;
+    padding: 9px 14px;
+    border-radius: 10px;
+    background-color:rgb(90, 142, 255); 
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+ .buttons button :hover{
+    background-color: white;
+    color: rgb(71, 112, 200);
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+
+}
+.contactform{
+    padding: 130px;
+    padding-left: 70px;
+    margin: 0 117px;
+}
+.contactform h1{
+    /*text-align: center;*/
+}
+.contactform form div{
+    padding: 10px 0  ;
+}
+#emailHelp{
+    font-size: 10px;
+    color: blue;
+    margin: 0 5px;
+}
+.contactform form div input{
+    width: 25vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+.contactform h1{
+    padding-bottom: 20px;
+}
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+    margin: 3px 0;
+    width: 24px;
+}
+.btn-primary{
+text-decoration: none;
+}
+.skills{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0 0 167px;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+.skills nav  {
+margin-top: 20px;
+margin-left: 21px;
+padding-top: 10px;
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 0 164px;
+}
+.in1{
+    padding: 15px;
+    margin-left: -16px;
+}
+@media only screen and (max-width: 1200px) 
+    {
+/*.sidebar{
+    transform: translate(-441px, 0px);
+    position: absolute;
+}*/
+.devpng {
+    display: none;
+}
+}
+.hamburger{
+    /*display: flex;
+    flex-direction: row;*/
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.cross{
+    margin-left: 101px;
+}
+.in {
+    margin-left: 184px;
+}
+.sidebarGo{
+    display: none;
+}
+.hh{
+    padding: 50px;
+}
